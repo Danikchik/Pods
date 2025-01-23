@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1125px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.all{
+    display: flex;   
+    padding: 6px 0 6px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+     background-color: #282828;
+}
+.header{
+    background-color: #151515 ;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.list a{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    font-family: 'mb';
+}
+.main{
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(../images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 700px;   
+    flex-direction: column;
+    gap: 38px;
+    
+}
+.section1 h1{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+    font-family: 'po';
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    border-radius: 10px;
+    border: none;
+}
+.btn1 h3{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    font-family: 'mm';
+}
+.section2 p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'mm';
+}
+.section2{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 87px;
+}
+.section3 p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'mm';
+    max-width: 540px;
+}
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    position: relative;
+    gap: 88px;
+    padding-bottom: 62px;
+}
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    font-family: 'mb';
+    max-width: 333px;
+    
+}
+.text.right{
+    display: flex;
+    text-align: right;
+    height: 144px;
+    
+}
+.text.left{
+    display: flex;
+    text-align: left;
+    height: 120px;
+}
+.image__main{
+    width: 100%;
+    height: 375px;
+    max-width: 268px;
+    position: relative;
+}
+.image__main::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px; 
+    height: 1px; 
+    background-color: #c4c4c4;
+    transform: translateY(-50%);
+    left: -70px;
+}
+.image__main::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px; 
+    height: 1px; 
+    background-color: #c4c4c4;
+    transform: translateY(-50%);
+    right: -70px;
+}
+.section5{
+    display: flex;
+    padding: 79px 0 55px 0;
+
+}
+.sec__cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    width: 255px;
+    height: 312px;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    font-family: 'mb';
+}
+.card p{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'mr';
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.im1{
+    width: 127px;
+    height: 167px; 
+}
+.im2{
+    width: 99px;
+    height: 167px;
+}
+.im3{
+    width: 103px;
+    height: 167px;
+}
+.im4{
+    width: 109px;
+    height: 167px;
+}
+.card img{
+    padding-top: 10px;
+}
+.card button{
+    width: 161px;
+    height: 34px;
+    background-color: #151515;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card button span{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'mb';
+}
+.footer{
+    background: #282828;
+   
+}
+.footer__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 74px 0 88px 0;
+}
+.footer__cash{
+    display: flex;
+    gap: 29px;
+}
